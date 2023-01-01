@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Images";
+}
+
+<h1>Images</h1>
+<br />
+<br />
+<br />
+<br />
+<ul>
+    @for (int i = 0; i < ViewBag.ImageTitle.Count; i++)
+    {
+        <h1>@ViewBag.ImageTitle[i]</h1>
+        <img src="@ViewBag.ImageDataUrl[i]" />
+    }
+</ul>
+<audio autoplay
+       src="~/audio/rain.wav">
+</audio>
+
