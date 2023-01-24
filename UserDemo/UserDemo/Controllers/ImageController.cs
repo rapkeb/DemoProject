@@ -38,6 +38,11 @@ namespace UserDemo.Controllers
             ViewBag.Message = "Image(s) stored in database!";
             return View("Index");
         }
+        [Route("/Image/Check/{userName}")]
+        public IActionResult Check(string userName)
+        {
+            return View("Index");
+        }
 
         public ActionResult Images()
         {

@@ -12,6 +12,7 @@
     @for (int i = 0; i < ViewBag.ImageTitle.Count; i++)
     {
         <h1>@ViewBag.ImageTitle[i]</h1>
+        <a asp-controller="Image" asp-action="Check" asp-route-userName="@ViewBag.ImageTitle[i]">click me</a>
         <img src="@ViewBag.ImageDataUrl[i]" />
     }
 </ul>

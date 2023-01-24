@@ -50,6 +50,8 @@ namespace UserDemo
 
             app.UseSession();
 
+            
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

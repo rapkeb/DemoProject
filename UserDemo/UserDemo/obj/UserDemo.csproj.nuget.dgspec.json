@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\97254\\Desktop\\לימודים\\שנה חמישית\\תיכון באר טוביה\\פרויקט דמו\\UserDemo\\UserDemo\\UserDemo.csproj": {}
+    "C:\\Users\\97254\\Desktop\\לימודים\\שנה חמישית\\תיכון באר טוביה\\פרויקט דמו\\DemoProject\\UserDemo\\UserDemo\\UserDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\97254\\Desktop\\לימודים\\שנה חמישית\\תיכון באר טוביה\\פרויקט דמו\\UserDemo\\UserDemo\\UserDemo.csproj": {
+    "C:\\Users\\97254\\Desktop\\לימודים\\שנה חמישית\\תיכון באר טוביה\\פרויקט דמו\\DemoProject\\UserDemo\\UserDemo\\UserDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\97254\\Desktop\\לימודים\\שנה חמישית\\תיכון באר טוביה\\פרויקט דמו\\UserDemo\\UserDemo\\UserDemo.csproj",
+        "projectUniqueName": "C:\\Users\\97254\\Desktop\\לימודים\\שנה חמישית\\תיכון באר טוביה\\פרויקט דמו\\DemoProject\\UserDemo\\UserDemo\\UserDemo.csproj",
         "projectName": "UserDemo",
-        "projectPath": "C:\\Users\\97254\\Desktop\\לימודים\\שנה חמישית\\תיכון באר טוביה\\פרויקט דמו\\UserDemo\\UserDemo\\UserDemo.csproj",
+        "projectPath": "C:\\Users\\97254\\Desktop\\לימודים\\שנה חמישית\\תיכון באר טוביה\\פרויקט דמו\\DemoProject\\UserDemo\\UserDemo\\UserDemo.csproj",
         "packagesPath": "C:\\Users\\97254\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\97254\\Desktop\\לימודים\\שנה חמישית\\תיכון באר טוביה\\פרויקט דמו\\UserDemo\\UserDemo\\obj\\",
+        "outputPath": "C:\\Users\\97254\\Desktop\\לימודים\\שנה חמישית\\תיכון באר טוביה\\פרויקט דמו\\DemoProject\\UserDemo\\UserDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\97254\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "Microsoft.AspNet.Mvc": {
               "target": "Package",
@@ -75,7 +77,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -87,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
